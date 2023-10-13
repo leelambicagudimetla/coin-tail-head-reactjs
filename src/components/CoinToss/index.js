@@ -4,9 +4,11 @@ import './index.css'
 
 class CoinToss extends Component {
   state = {
+    tossResult: 0,
     total: 0,
     heads: 0,
     tails: 0,
+    imgs: '',
   }
 
   onClickButton = () => {
